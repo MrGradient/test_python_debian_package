@@ -3,10 +3,12 @@
 
 BASE_DIR="/tmp/fun-scripts"
 BASE_DIR_DEBIAN=$BASE_DIR/debian
-SCRIPT_DIR="/home/basti/Git/test_python_debian_package/funpy"
+SCRIPT_DIR="./funpy/"
 
 mkdir -p $BASE_DIR
 mkdir -p $BASE_DIR_DEBIAN
+
+cp $SCRIPT_DIR/* $BASE_DIR
 
 cat <<EOF >> $BASE_DIR/affe.share
 #!/bin/sh
@@ -63,7 +65,7 @@ EOF
 
 # Install
 cat <<EOF >> $BASE_DIR_DEBIAN/install
-affe.share usr/bin/
+* usr/bin/
 EOF
 
 # Changelog
