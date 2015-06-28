@@ -56,7 +56,7 @@ X-Python-Version: >= 2.6
 Package: fun-scripts
 Architecture: all
 Section: python
-Depends: python-appindicator, ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python:Depends}
 Description: short description
  A long description goes here.
  .
