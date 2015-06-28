@@ -13,7 +13,7 @@ deploy:
   api_key:
    secure: "M1PYyCJ7hUf6pmZJG6IjSw3bgr09jGby1MMTu5TUsL9CTVr8VHXiGbitCbWVhsscTdZbcwDg/B1q9c7d7vhgknfn9ae5qE40hksArHlXM56sosTRYL4ESbbzahPf+8hJGENuqDHB2qxZVqwhp1dMx/VP8dp+Wp59Q+VElMWkjakEQhbdx8p9cnvbgzoXgdT5laMhDckpZjzPC1Io9t4vwBdkzcf5yDPnBCGsSo9aby10Vyo9H5EoFcmG32peKGaX4ySdwYM+uY8Gp4nooiXa2gsWOqtJsy9Q59yp55RzrGKAaLFjSFxXZWwUaKmEY9kSNmdI9E2Xdod3U1Xog0oMTP1PIVTjeo4Ky855zmPtSwWw6mB1IZmbQ8A8gBIqOPG6cq4UuR6AdwjBFrSFcCWuXs947M8iIhAMnBaW8Jop4t8SEHrU6SAvC/pBvkhOmV6M4iCFbDKDbzZkqSeYBuki84IYklJcOLALnENzjc36me1OaKQYwREeenk+oOByQ9FNr9n/UR+0fGbOXe2H0979lKJGg/gwGTG+F9jUXSWWrrrME5pWjjkx1cHO/6V6CraQSKOBafDrep0CpNYFMJpd4EznTvZunK0gfl3nqryyQfCiaDRoA0Cvhl7bCbgKFnyglxeUMn6/2uzkkB0GkCa+UBhEXUrpAnOwUHqBQeeoOH8="
   file:
-    - /tmp/fun-scripts_VERSION_all.deb
+    - /tmp/fun-scripts_1.0.0_all.deb
   on:
     repo: MrGradient/test_python_debian_package
     tags: true
