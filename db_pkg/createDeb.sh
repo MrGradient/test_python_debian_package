@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-BASE_DIR="/tmp/scripts"
+BASE_DIR="/tmp/fun-scripts"
 BASE_DIR_DEBIAN=$BASE_DIR/debian
 SCRIPT_DIR="/home/basti/Git/test_python_debian_package/funpy"
 
