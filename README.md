@@ -1,2 +1,3 @@
-# test_python_debian_package
-test test teest
+## Fun with Travis
+
+Tag a build, Travis will create and deploy a `.deb` package, containing all the cool scripts located in `funpy/`
