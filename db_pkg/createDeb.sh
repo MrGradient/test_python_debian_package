@@ -9,7 +9,8 @@ mkdir -p $BASE_DIR
 mkdir -p $BASE_DIR_DEBIAN
 
 cat <<EOF >> $BASE_DIR/affe.share
-test script
+#!/bin/sh
+echo "abc"
 EOF
 
 # Create Copyright
@@ -35,7 +36,7 @@ cat <<EOF >> $BASE_DIR_DEBIAN/rules
 #!/usr/bin/make -f
 
 %:
-	dh $@
+	dh \$@
 EOF
 
 # Control
@@ -62,7 +63,7 @@ EOF
 
 # Install
 cat <<EOF >> $BASE_DIR_DEBIAN/install
-* usr/bin/
+affe.share usr/bin/
 EOF
 
 # Changelog
