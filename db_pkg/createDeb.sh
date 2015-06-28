@@ -11,7 +11,7 @@ mkdir -p $BASE_DIR_DEBIAN
 # Create Copyright
 cat <<EOF >> $BASE_DIR_DEBIAN/copyright
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: fun_scripts
+Upstream-Name: fun-scripts
 Upstream-Contact: Sebastian Chlan, <sebastian.chlan@gmail.com>
 
 Files: *
@@ -36,7 +36,7 @@ EOF
 
 # Control
 cat <<EOF >> $BASE_DIR_DEBIAN/control
-Source: fun_scripts
+Source: fun-scripts
 Section: python
 Priority: optional
 Maintainer: Sebastian Chlan, <sebastian.chlan@gmail.com>
