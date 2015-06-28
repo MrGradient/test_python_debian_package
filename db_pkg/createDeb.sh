@@ -8,6 +8,10 @@ SCRIPT_DIR="/home/basti/Git/test_python_debian_package/funpy"
 mkdir -p $BASE_DIR
 mkdir -p $BASE_DIR_DEBIAN
 
+cat <<EOF >> $BASE_DIR/affe.share
+test script
+EOF
+
 # Create Copyright
 cat <<EOF >> $BASE_DIR_DEBIAN/copyright
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
@@ -31,7 +35,7 @@ cat <<EOF >> $BASE_DIR_DEBIAN/rules
 #!/usr/bin/make -f
 
 %:
-    dh $@ --with python
+	dh $@
 EOF
 
 # Control
