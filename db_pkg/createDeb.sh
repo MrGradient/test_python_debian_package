@@ -31,7 +31,7 @@ cat <<EOF >> $BASE_DIR_DEBIAN/rules
 #!/usr/bin/make -f
 
 %:
-    dh $@ --with python2
+    dh $@ --with python
 EOF
 
 # Control
@@ -59,4 +59,13 @@ EOF
 # Install
 cat <<EOF >> $BASE_DIR_DEBIAN/install
 * usr/bin/
+EOF
+
+# Changelog
+cat <<EOF >> $BASE_DIR_DEBIAN/changelog
+fun-scripts (VERSION) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- root <root@bastel.chlan.local>  Mon, 29 Jun 2015 00:19:51 +0200
 EOF
