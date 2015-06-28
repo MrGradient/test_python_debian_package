@@ -78,5 +78,5 @@ fun-scripts (VERSION) UNRELEASED; urgency=low
 EOF
 
 
-cd /tmp
+cd /tmp/fun-scripts
 debuild -i -us -uc -b
