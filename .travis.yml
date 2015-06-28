@@ -4,8 +4,7 @@ python:
 notifications:
  email: false
 script: nosetests
-before_deploy:
- script: ./db_pkg/createDeb.sh
+before_deploy: ./db_pkg/createDeb.sh
 deploy:
   provider: releases
   api_key:
