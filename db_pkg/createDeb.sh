@@ -70,7 +70,7 @@ EOF
 
 # Changelog
 cat <<EOF >> $BASE_DIR_DEBIAN/changelog
-fun-scripts (VERSION) UNRELEASED; urgency=low
+fun-scripts (1.0.0) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #XXXXXX)
 
