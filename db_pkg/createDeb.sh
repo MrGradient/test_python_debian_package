@@ -76,3 +76,7 @@ fun-scripts (VERSION) UNRELEASED; urgency=low
 
  -- root <root@bastel.chlan.local>  Mon, 29 Jun 2015 00:19:51 +0200
 EOF
+
+
+cd /tmp
+debuild -i -us -uc -b
