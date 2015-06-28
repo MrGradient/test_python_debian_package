@@ -8,9 +8,10 @@ SCRIPT_DIR="./funpy/"
 mkdir -p $BASE_DIR
 mkdir -p $BASE_DIR_DEBIAN
 
-cp $SCRIPT_DIR/* $BASE_DIR
+mkdir $BASE_DIR/scripts
+cp $SCRIPT_DIR/* $BASE_DIR/scripts
 
-cat <<EOF >> $BASE_DIR/affe.share
+cat <<EOF >> $BASE_DIR/scripts/affe.share
 #!/bin/sh
 echo "abc"
 EOF
@@ -65,7 +66,7 @@ EOF
 
 # Install
 cat <<EOF >> $BASE_DIR_DEBIAN/install
-* usr/bin/
+scripts/* usr/bin/
 EOF
 
 # Changelog
