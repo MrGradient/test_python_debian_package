@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 BASE_DIR="/tmp/fun-scripts"
 BASE_DIR_DEBIAN=$BASE_DIR/debian
 SCRIPT_DIR="./funpy/"
