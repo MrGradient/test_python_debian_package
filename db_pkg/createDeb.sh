@@ -42,10 +42,11 @@ Priority: optional
 Maintainer: Sebastian Chlan, <sebastian.chlan@gmail.com>
 Build-Depends: debhelper (>= 7),
                python (>= 2.6.6-3~)
-               Standards-Version: 3.9.2
-               X-Python-Version: >= 2.6
+Standards-Version: 3.9.2
+X-Python-Version: >= 2.6
 
-Package: my-script
+
+Package: fun-scripts
 Architecture: all
 Section: python
 Depends: python-appindicator, ${misc:Depends}, ${python:Depends}
