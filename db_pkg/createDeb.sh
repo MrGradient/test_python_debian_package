@@ -35,7 +35,7 @@ cat <<EOF >> $BASE_DIR_DEBIAN/rules
 EOF
 
 # Control
-cat <<EOF >> $BASE_DIR_DEBIAN/rules
+cat <<EOF >> $BASE_DIR_DEBIAN/control
 Source: fun_scripts
 Section: python
 Priority: optional
